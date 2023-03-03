@@ -1,0 +1,7 @@
+<launch>
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch">
+  <arg name="x_pos" value="1"/> 
+  </include>
+  <include file="$(find turtlebot3_slam)/launch/turtlebot3_slam.launch"/>
+  <node name="turtlebot3_obstacle_avoidance" pkg="robot_learning_ros" type="RL" output="screen"/>
+</launch>
