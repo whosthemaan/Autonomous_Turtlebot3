@@ -1,9 +1,9 @@
-# Obstacle avoidance on turtlebot3 using lidar
+## Obstacle avoidance on turtlebot3 using lidar
 
 1. We require turtlebot3 to be installed for the program to run
 
 2. To run the teleop, we will need to run two commands(as turtlebot3 is already installed, these packages will be available for direct use):
-	#this commands open the world file being used for autonomous navigation as well
+	# this commands open the world file being used for autonomous navigation as well
 	1. roslaunch turtlebot3_gazebo turtlebot3_world.launch
 	
 	# this launch file controls the teleop operation
